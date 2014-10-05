@@ -70,8 +70,8 @@
                     <connections>
                         <outlet property="passwordTextField" destination="Msf-T0-iw5" id="66G-sb-vqg"/>
                         <outlet property="userNameTextField" destination="UUb-Yj-VEh" id="uzb-y3-Ky4"/>
-                        <segue destination="bav-ce-vzr" kind="modal" identifier="toCreateAccountViewController" id="KdE-Lx-2s4"/>
-                        <segue destination="Rdh-Eg-z3i" kind="modal" identifier="toViewController" id="HPq-I2-xoH"/>
+                        <segue destination="bav-ce-vzr" kind="modal" identifier="toCreateAccountViewControllerSegue" id="KdE-Lx-2s4"/>
+                        <segue destination="Rdh-Eg-z3i" kind="modal" identifier="toViewControllerSegue" id="HPq-I2-xoH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="MLF-py-HP2" userLabel="First Responder" sceneMemberID="firstResponder"/>

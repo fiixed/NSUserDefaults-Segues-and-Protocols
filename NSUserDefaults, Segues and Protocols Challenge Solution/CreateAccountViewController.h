@@ -8,7 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol CreateAccountViewControllerDelegate <NSObject>
+
+@required
+
+-(void)didCancel;
+-(void)didCreateAccount;
+
+@end
+
 @interface CreateAccountViewController : UIViewController
+
+@property (weak, nonatomic) id <CreateAccountViewControllerDelegate> delegate;
+
 @property (strong, nonatomic) IBOutlet UITextField *userNameTextField;
 @property (strong, nonatomic) IBOutlet UITextField *passwordTextField;
 @property (strong, nonatomic) IBOutlet UITextField *confirmPasswordTextField;

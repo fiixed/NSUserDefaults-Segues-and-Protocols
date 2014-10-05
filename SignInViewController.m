@@ -34,9 +34,33 @@
 }
 */
 
-- (IBAction)loginButtonPressed:(UIButton *)sender {
+-(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+{
+    if ([segue.destinationViewController isKindOfClass:[CreateAccountViewController class]]) {
+        CreateAccountViewController *createAccountVC = segue.destinationViewController;
+        createAccountVC.delegate = self;
+    }
 }
 
-- (IBAction)createAccountButtonPressed:(UIBarButtonItem *)sender {
+- (IBAction)loginButtonPressed:(UIButton *)sender
+{
+    [self performSegueWithIdentifier:@"toViewControllerSegue" sender:sender];
+}
+
+- (IBAction)createAccountButtonPressed:(UIBarButtonItem *)sender
+{
+    [self performSegueWithIdentifier:@"toCreateAccountViewControllerSegue" sender:sender];
+}
+
+#pragma mark CreateAccountViewControllerDelegate
+
+-(void)didCancel
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+
+-(void)didCreateAccount
+{
+    [self dismissViewControllerAnimated:YES completion:nil];
 }
 @end
