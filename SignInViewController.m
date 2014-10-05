@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  SignInViewController.m
 //  NSUserDefaults, Segues and Protocols Challenge Solution
 //
 //  Created by Andrew Bell on 10/5/14.
 //  Copyright (c) 2014 Andrew Bell. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SignInViewController.h"
 
-@interface ViewController ()
+@interface SignInViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SignInViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,4 +34,9 @@
 }
 */
 
+- (IBAction)loginButtonPressed:(UIButton *)sender {
+}
+
+- (IBAction)createAccountButtonPressed:(UIBarButtonItem *)sender {
+}
 @end

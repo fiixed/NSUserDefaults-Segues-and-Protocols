@@ -9,11 +9,13 @@
 /* Begin PBXBuildFile section */
 		052B9C3119E1A29900D8F668 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 052B9C3019E1A29900D8F668 /* main.m */; };
 		052B9C3419E1A29900D8F668 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 052B9C3319E1A29900D8F668 /* AppDelegate.m */; };
-		052B9C3719E1A29900D8F668 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052B9C3619E1A29900D8F668 /* ViewController.m */; };
 		052B9C3A19E1A29900D8F668 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 052B9C3819E1A29900D8F668 /* Main.storyboard */; };
 		052B9C3C19E1A29900D8F668 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 052B9C3B19E1A29900D8F668 /* Images.xcassets */; };
 		052B9C3F19E1A29900D8F668 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 052B9C3D19E1A29900D8F668 /* LaunchScreen.xib */; };
 		052B9C4B19E1A29900D8F668 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 052B9C4A19E1A29900D8F668 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */; };
+		052B9C5619E1A34300D8F668 /* SignInViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052B9C5519E1A34300D8F668 /* SignInViewController.m */; };
+		052B9C5919E1A36A00D8F668 /* CreateAccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052B9C5819E1A36A00D8F668 /* CreateAccountViewController.m */; };
+		052B9C5C19E1A3D100D8F668 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 052B9C5B19E1A3D100D8F668 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +34,18 @@
 		052B9C3019E1A29900D8F668 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		052B9C3219E1A29900D8F668 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		052B9C3319E1A29900D8F668 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		052B9C3519E1A29900D8F668 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		052B9C3619E1A29900D8F668 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		052B9C3919E1A29900D8F668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		052B9C3B19E1A29900D8F668 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		052B9C3E19E1A29900D8F668 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		052B9C4419E1A29900D8F668 /* NSUserDefaults, Segues and Protocols Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSUserDefaults, Segues and Protocols Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		052B9C4919E1A29900D8F668 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		052B9C4A19E1A29900D8F668 /* NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSUserDefaults__Segues_and_Protocols_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		052B9C5419E1A34300D8F668 /* SignInViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SignInViewController.h; path = ../SignInViewController.h; sourceTree = "<group>"; };
+		052B9C5519E1A34300D8F668 /* SignInViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SignInViewController.m; path = ../SignInViewController.m; sourceTree = "<group>"; };
+		052B9C5719E1A36A00D8F668 /* CreateAccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountViewController.h; sourceTree = "<group>"; };
+		052B9C5819E1A36A00D8F668 /* CreateAccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountViewController.m; sourceTree = "<group>"; };
+		052B9C5A19E1A3D100D8F668 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		052B9C5B19E1A3D100D8F668 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +89,13 @@
 			children = (
 				052B9C3219E1A29900D8F668 /* AppDelegate.h */,
 				052B9C3319E1A29900D8F668 /* AppDelegate.m */,
-				052B9C3519E1A29900D8F668 /* ViewController.h */,
-				052B9C3619E1A29900D8F668 /* ViewController.m */,
 				052B9C3819E1A29900D8F668 /* Main.storyboard */,
+				052B9C5419E1A34300D8F668 /* SignInViewController.h */,
+				052B9C5519E1A34300D8F668 /* SignInViewController.m */,
+				052B9C5719E1A36A00D8F668 /* CreateAccountViewController.h */,
+				052B9C5819E1A36A00D8F668 /* CreateAccountViewController.m */,
+				052B9C5A19E1A3D100D8F668 /* ViewController.h */,
+				052B9C5B19E1A3D100D8F668 /* ViewController.m */,
 				052B9C3B19E1A29900D8F668 /* Images.xcassets */,
 				052B9C3D19E1A29900D8F668 /* LaunchScreen.xib */,
 				052B9C2E19E1A29900D8F668 /* Supporting Files */,
@@ -219,9 +229,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				052B9C3719E1A29900D8F668 /* ViewController.m in Sources */,
+				052B9C5919E1A36A00D8F668 /* CreateAccountViewController.m in Sources */,
 				052B9C3419E1A29900D8F668 /* AppDelegate.m in Sources */,
+				052B9C5619E1A34300D8F668 /* SignInViewController.m in Sources */,
 				052B9C3119E1A29900D8F668 /* main.m in Sources */,
+				052B9C5C19E1A3D100D8F668 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

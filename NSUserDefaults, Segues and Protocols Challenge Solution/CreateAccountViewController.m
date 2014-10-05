@@ -1,18 +1,18 @@
 //
-//  ViewController.m
+//  CreateAccountViewController.m
 //  NSUserDefaults, Segues and Protocols Challenge Solution
 //
 //  Created by Andrew Bell on 10/5/14.
 //  Copyright (c) 2014 Andrew Bell. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CreateAccountViewController.h"
 
-@interface ViewController ()
+@interface CreateAccountViewController ()
 
 @end
 
-@implementation ViewController
+@implementation CreateAccountViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -34,4 +34,9 @@
 }
 */
 
+- (IBAction)createAccountButtonPressed:(UIButton *)sender {
+}
+
+- (IBAction)cancelButtonPressed:(UIButton *)sender {
+}
 @end
